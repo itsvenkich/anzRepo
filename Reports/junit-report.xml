@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="My Calculator application" timestamp="2022-12-09T14:18:54" time="44.136" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Calculator application"/>
+      <property name="capabilities" value="chrome.108_0_5359_96.windows"/>
+      <property name="file" value="file:///C:/Users/shameera/Documents/TestProject/test/specs/calculator.js"/>
+    </properties>
+    <testcase classname="chrome.108_0_5359_96.windows.My_Calculator_application" name="Providing the personal details expect the borrowing Estimate should be greater than 40000" time="11.512">
+      <system-out><![CDATA[
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/window/maximize - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/url - {"url":"https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/window/maximize - {}
+RESULT: {"url":"https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//input[@id=\"application_type_single\"]/ancestor::li"}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//input[@id=\"application_type_single\"]/ancestor::li"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"css selector","value":"html"}
+RESULT: {"using":"css selector","value":"html"}
+COMMAND: GET /session/85266b292f854fbfb02d57b87e73d0a2/element/a8940335-0f8d-4773-a319-babfff710a22/rect - {}
+RESULT: {}
+COMMAND: GET /session/85266b292f854fbfb02d57b87e73d0a2/element/939a47d1-2b0b-45c5-a29e-5ed39a9c93ca/rect - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/actions - {"actions":[{"id":"action1","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":0,"y":0,"deltaX":0,"deltaY":4339,"duration":200,"origin":{"element-6066-11e4-a52e-4f735466cecf":"939a47d1-2b0b-45c5-a29e-5ed39a9c93ca"}}]}]}
+RESULT: {"actions":[{"id":"action1","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":0,"y":0,"deltaX":0,"deltaY":4339,"duration":200,"origin":{"element-6066-11e4-a52e-4f735466cecf":"939a47d1-2b0b-45c5-a29e-5ed39a9c93ca"}}]}]}
+COMMAND: DELETE /session/85266b292f854fbfb02d57b87e73d0a2/actions - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/939a47d1-2b0b-45c5-a29e-5ed39a9c93ca/click - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//select[@title=\"Number of dependants\"]"}
+RESULT: {"using":"xpath","value":"//select[@title=\"Number of dependants\"]"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7763 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"1adae3e4-7daf-4200-be92-01b67f7b6274","ELEMENT":"1adae3e4-7daf-4200-be92-01b67f7b6274"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7763 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"1adae3e4-7daf-4200-be92-01b67f7b6274","ELEMENT":"1adae3e4-7daf-4200-be92-01b67f7b6274"}]}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"1adae3e4-7daf-4200-be92-01b67f7b6274","ELEMENT":"1adae3e4-7daf-4200-be92-01b67f7b6274"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"1adae3e4-7daf-4200-be92-01b67f7b6274","ELEMENT":"1adae3e4-7daf-4200-be92-01b67f7b6274"}]}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//select[@title=\"Number of dependants\"]"}
+RESULT: {"using":"xpath","value":"//select[@title=\"Number of dependants\"]"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/1adae3e4-7daf-4200-be92-01b67f7b6274/element - {"using":"xpath","value":"./option[. = \"0\"]|./option[normalize-space(text()) = \"0\"]|./optgroup/option[. = \"0\"]|./optgroup/option[normalize-space(text()) = \"0\"]"}
+RESULT: {"using":"xpath","value":"./option[. = \"0\"]|./option[normalize-space(text()) = \"0\"]|./optgroup/option[. = \"0\"]|./optgroup/option[normalize-space(text()) = \"0\"]"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/5d181fff-14d2-4d58-a289-ec72b50644f3/click - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//input[@id=\"borrow_type_home\"]/ancestor::li"}
+RESULT: {"using":"xpath","value":"//input[@id=\"borrow_type_home\"]/ancestor::li"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"css selector","value":"html"}
+RESULT: {"using":"css selector","value":"html"}
+COMMAND: GET /session/85266b292f854fbfb02d57b87e73d0a2/element/a8940335-0f8d-4773-a319-babfff710a22/rect - {}
+RESULT: {}
+COMMAND: GET /session/85266b292f854fbfb02d57b87e73d0a2/element/6265f312-b296-4768-b2a0-d86c664e07d0/rect - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/actions - {"actions":[{"id":"action2","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":0,"y":0,"deltaX":0,"deltaY":4339,"duration":200,"origin":{"element-6066-11e4-a52e-4f735466cecf":"6265f312-b296-4768-b2a0-d86c664e07d0"}}]}]}
+RESULT: {"actions":[{"id":"action2","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":0,"y":0,"deltaX":0,"deltaY":4339,"duration":200,"origin":{"element-6066-11e4-a52e-4f735466cecf":"6265f312-b296-4768-b2a0-d86c664e07d0"}}]}]}
+COMMAND: DELETE /session/85266b292f854fbfb02d57b87e73d0a2/actions - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/6265f312-b296-4768-b2a0-d86c664e07d0/click - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//label[contains(text(),\"Your annual income (before tax)\")]/parent::div/div/input"}
+RESULT: {"using":"xpath","value":"//label[contains(text(),\"Your annual income (before tax)\")]/parent::div/div/input"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/cfe08393-5ee1-4b94-b15a-49c03f308c69/clear - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/cfe08393-5ee1-4b94-b15a-49c03f308c69/value - {"text":"80000"}
+RESULT: {"text":"80000"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//label[contains(text(),\"Your annual other income (optional)\")]/parent::div/div/input"}
+RESULT: {"using":"xpath","value":"//label[contains(text(),\"Your annual other income (optional)\")]/parent::div/div/input"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/13c5a0c4-f36c-4d7b-980c-e4c2887aa5b4/clear - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/13c5a0c4-f36c-4d7b-980c-e4c2887aa5b4/value - {"text":"10000"}
+RESULT: {"text":"10000"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//input[@id=\"expenses\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"expenses\"]"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/f64ac0e7-225d-4d51-b159-5f980ee458c0/clear - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/f64ac0e7-225d-4d51-b159-5f980ee458c0/value - {"text":"500"}
+RESULT: {"text":"500"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//input[@id=\"homeloans\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"homeloans\"]"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/b84c1fd2-e3b6-4a1d-ba4a-5d1aab0eb6e3/clear - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/b84c1fd2-e3b6-4a1d-ba4a-5d1aab0eb6e3/value - {"text":"0"}
+RESULT: {"text":"0"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//input[@id=\"otherloans\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"otherloans\"]"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/362fbdfb-8b2e-42b2-a60b-8bf35c9ceb92/clear - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/362fbdfb-8b2e-42b2-a60b-8bf35c9ceb92/value - {"text":"100"}
+RESULT: {"text":"100"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//input[@aria-labelledby=\"q3q4\"]"}
+RESULT: {"using":"xpath","value":"//input[@aria-labelledby=\"q3q4\"]"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/b1f6deae-1aaf-4a80-9b48-458f17c0f92c/clear - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/b1f6deae-1aaf-4a80-9b48-458f17c0f92c/value - {"text":"0"}
+RESULT: {"text":"0"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//label[contains(text(),\"Total credit card limits\")]/parent::div/div/input"}
+RESULT: {"using":"xpath","value":"//label[contains(text(),\"Total credit card limits\")]/parent::div/div/input"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/21dab7db-4dcf-414c-bffb-e2159b7238bb/clear - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/21dab7db-4dcf-414c-bffb-e2159b7238bb/value - {"text":"10000"}
+RESULT: {"text":"10000"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//button[@id=\"btnBorrowCalculater\"]"}
+RESULT: {"using":"xpath","value":"//button[@id=\"btnBorrowCalculater\"]"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"css selector","value":"html"}
+RESULT: {"using":"css selector","value":"html"}
+COMMAND: GET /session/85266b292f854fbfb02d57b87e73d0a2/element/a8940335-0f8d-4773-a319-babfff710a22/rect - {}
+RESULT: {}
+COMMAND: GET /session/85266b292f854fbfb02d57b87e73d0a2/element/18feaca3-c4b6-43c8-872c-fd7e26b7522c/rect - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/actions - {"actions":[{"id":"action3","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":0,"y":0,"deltaX":0,"deltaY":4331,"duration":200,"origin":{"element-6066-11e4-a52e-4f735466cecf":"18feaca3-c4b6-43c8-872c-fd7e26b7522c"}}]}]}
+RESULT: {"actions":[{"id":"action3","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":0,"y":0,"deltaX":0,"deltaY":4331,"duration":200,"origin":{"element-6066-11e4-a52e-4f735466cecf":"18feaca3-c4b6-43c8-872c-fd7e26b7522c"}}]}]}
+COMMAND: DELETE /session/85266b292f854fbfb02d57b87e73d0a2/actions - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element/18feaca3-c4b6-43c8-872c-fd7e26b7522c/click - {}
+RESULT: {}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//span[@id=\"borrowResultTextAmount\"]"}
+RESULT: {"using":"xpath","value":"//span[@id=\"borrowResultTextAmount\"]"}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7763 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"cd6bc33a-299c-45bb-82fa-c7fb0995cc9f","ELEMENT":"cd6bc33a-299c-45bb-82fa-c7fb0995cc9f"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7763 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"cd6bc33a-299c-45bb-82fa-c7fb0995cc9f","ELEMENT":"cd6bc33a-299c-45bb-82fa-c7fb0995cc9f"}]}
+COMMAND: POST /session/85266b292f854fbfb02d57b87e73d0a2/element - {"using":"xpath","value":"//span[@id=\"borrowResultTextAmount\"]"}
+RESULT: {"using":"xpath","value":"//span[@id=\"borrowResultTextAmount\"]"}
+COMMAND: GET /session/85266b292f854fbfb02d57b87e73d0a2/element/cd6bc33a-299c-45bb-82fa-c7fb0995cc9f/text - {}
+RESULT: {}
+COMMAND: DELETE /session/85266b292f854fbfb02d57b87e73d0a2/cookie - {}
+RESULT: {}
+COMMAND: DELETE /session/85266b292f854fbfb02d57b87e73d0a2 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.108_0_5359_96.windows.My_Calculator_application" name="clicking the start over button clears the form" time="5.327">
+      <system-out><![CDATA[
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/window/maximize - {}
+RESULT: {}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/url - {"url":"https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow"}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/window/maximize - {}
+RESULT: {"url":"https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow"}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element - {"using":"xpath","value":"//input[@id=\"expenses\"]"}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//input[@id=\"expenses\"]"}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element/1b1ecc0d-f1e6-435f-9fab-1019b660edc0/clear - {}
+RESULT: {}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element/1b1ecc0d-f1e6-435f-9fab-1019b660edc0/value - {"text":"10"}
+RESULT: {"text":"10"}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element - {"using":"xpath","value":"//input[@id=\"otherloans\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"otherloans\"]"}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element/fb57e80e-3ad6-4101-ad80-440a1f672902/clear - {}
+RESULT: {}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element/fb57e80e-3ad6-4101-ad80-440a1f672902/value - {"text":"10"}
+RESULT: {"text":"10"}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element - {"using":"xpath","value":"//div[@class=\"result__restart\"]/button[contains(@class,\"start-over\")]"}
+RESULT: {"using":"xpath","value":"//div[@class=\"result__restart\"]/button[contains(@class,\"start-over\")]"}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element - {"using":"css selector","value":"html"}
+RESULT: {"using":"css selector","value":"html"}
+COMMAND: GET /session/36f354a37e5a5a76a3ff1443098f01d4/element/53356c4f-6e83-4ccb-af2a-efa5a7487a54/rect - {}
+RESULT: {}
+COMMAND: GET /session/36f354a37e5a5a76a3ff1443098f01d4/element/5831e1b1-38d6-4fe9-aff5-3f7ab9f5701b/rect - {}
+RESULT: {}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/actions - {"actions":[{"id":"action4","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":0,"y":0,"deltaX":0,"deltaY":4359,"duration":200,"origin":{"element-6066-11e4-a52e-4f735466cecf":"5831e1b1-38d6-4fe9-aff5-3f7ab9f5701b"}}]}]}
+RESULT: {"actions":[{"id":"action4","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":0,"y":0,"deltaX":0,"deltaY":4359,"duration":200,"origin":{"element-6066-11e4-a52e-4f735466cecf":"5831e1b1-38d6-4fe9-aff5-3f7ab9f5701b"}}]}]}
+COMMAND: DELETE /session/36f354a37e5a5a76a3ff1443098f01d4/actions - {}
+RESULT: {}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element/5831e1b1-38d6-4fe9-aff5-3f7ab9f5701b/click - {}
+RESULT: {}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element - {"using":"xpath","value":"//input[@id=\"expenses\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"expenses\"]"}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element - {"using":"xpath","value":"//label[contains(text(),\"Your annual income (before tax)\")]/parent::div/div/input"}
+COMMAND: GET /session/36f354a37e5a5a76a3ff1443098f01d4/element/1b1ecc0d-f1e6-435f-9fab-1019b660edc0/property/value - {}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//label[contains(text(),\"Your annual income (before tax)\")]/parent::div/div/input"}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element - {"using":"xpath","value":"//label[contains(text(),\"Your annual other income (optional)\")]/parent::div/div/input"}
+COMMAND: GET /session/36f354a37e5a5a76a3ff1443098f01d4/element/cf759c2f-de12-4a53-8773-aae5f2acea47/property/value - {}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//label[contains(text(),\"Your annual other income (optional)\")]/parent::div/div/input"}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element - {"using":"xpath","value":"//input[@id=\"otherloans\"]"}
+COMMAND: GET /session/36f354a37e5a5a76a3ff1443098f01d4/element/1815bb04-efb5-49f5-aa45-a590e1a4690c/property/value - {}
+RESULT: {"using":"xpath","value":"//input[@id=\"otherloans\"]"}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element - {"using":"xpath","value":"//input[@aria-labelledby=\"q3q4\"]"}
+COMMAND: GET /session/36f354a37e5a5a76a3ff1443098f01d4/element/fb57e80e-3ad6-4101-ad80-440a1f672902/property/value - {}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//input[@aria-labelledby=\"q3q4\"]"}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element - {"using":"xpath","value":"//label[contains(text(),\"Total credit card limits\")]/parent::div/div/input"}
+COMMAND: GET /session/36f354a37e5a5a76a3ff1443098f01d4/element/92ab768f-8524-4f8e-b771-4330ed98d379/property/value - {}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//label[contains(text(),\"Total credit card limits\")]/parent::div/div/input"}
+COMMAND: POST /session/36f354a37e5a5a76a3ff1443098f01d4/element - {"using":"xpath","value":"//input[@id=\"homeloans\"]"}
+COMMAND: GET /session/36f354a37e5a5a76a3ff1443098f01d4/element/a1b14d6f-657e-43b6-b033-046e0cbd3582/property/value - {}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//input[@id=\"homeloans\"]"}
+COMMAND: GET /session/36f354a37e5a5a76a3ff1443098f01d4/element/cb2678db-def3-4266-ac37-16a050d108dc/property/value - {}
+COMMAND: DELETE /session/36f354a37e5a5a76a3ff1443098f01d4/cookie - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: DELETE /session/36f354a37e5a5a76a3ff1443098f01d4 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.108_0_5359_96.windows.My_Calculator_application" name="Enter 1 for Livings Expenses and click on How much I borrow button returns the expected message" time="5.816">
+      <system-out><![CDATA[
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/window/maximize - {}
+RESULT: {}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/url - {"url":"https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow"}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/window/maximize - {}
+RESULT: {}
+RESULT: {"url":"https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow"}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/element - {"using":"xpath","value":"//input[@id=\"expenses\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"expenses\"]"}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/element/461bca32-149e-4562-a534-d9462f183e50/clear - {}
+RESULT: {}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/element/461bca32-149e-4562-a534-d9462f183e50/value - {"text":"1"}
+RESULT: {"text":"1"}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/element - {"using":"xpath","value":"//button[@id=\"btnBorrowCalculater\"]"}
+RESULT: {"using":"xpath","value":"//button[@id=\"btnBorrowCalculater\"]"}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/elements - {"using":"xpath","value":"//button[@id=\"btnBorrowCalculater\"]"}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/element - {"using":"css selector","value":"html"}
+RESULT: {"using":"css selector","value":"html"}
+COMMAND: GET /session/3341c71ac7919aac6d56170d9660f54b/element/172398d6-5dbe-4b80-86c0-4a241eb68578/rect - {}
+RESULT: {"using":"xpath","value":"//button[@id=\"btnBorrowCalculater\"]"}
+COMMAND: GET /session/3341c71ac7919aac6d56170d9660f54b/element/d0a4056a-ba9d-41ca-a59a-7dbc13e38f79/enabled - {}
+RESULT: {}
+COMMAND: GET /session/3341c71ac7919aac6d56170d9660f54b/element/d0a4056a-ba9d-41ca-a59a-7dbc13e38f79/rect - {}
+RESULT: {}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7763 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0a4056a-ba9d-41ca-a59a-7dbc13e38f79","ELEMENT":"d0a4056a-ba9d-41ca-a59a-7dbc13e38f79"}]}
+RESULT: {}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/actions - {"actions":[{"id":"action5","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":0,"y":0,"deltaX":0,"deltaY":4331,"duration":200,"origin":{"element-6066-11e4-a52e-4f735466cecf":"d0a4056a-ba9d-41ca-a59a-7dbc13e38f79"}}]}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7763 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0a4056a-ba9d-41ca-a59a-7dbc13e38f79","ELEMENT":"d0a4056a-ba9d-41ca-a59a-7dbc13e38f79"}]}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0a4056a-ba9d-41ca-a59a-7dbc13e38f79","ELEMENT":"d0a4056a-ba9d-41ca-a59a-7dbc13e38f79"}]}
+RESULT: {"actions":[{"id":"action5","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":0,"y":0,"deltaX":0,"deltaY":4331,"duration":200,"origin":{"element-6066-11e4-a52e-4f735466cecf":"d0a4056a-ba9d-41ca-a59a-7dbc13e38f79"}}]}]}
+COMMAND: DELETE /session/3341c71ac7919aac6d56170d9660f54b/actions - {}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d0a4056a-ba9d-41ca-a59a-7dbc13e38f79","ELEMENT":"d0a4056a-ba9d-41ca-a59a-7dbc13e38f79"}]}
+RESULT: {}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/element/d0a4056a-ba9d-41ca-a59a-7dbc13e38f79/click - {}
+RESULT: {}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/element - {"using":"xpath","value":"//div[contains(@class,\"borrow__error__text\")]"}
+RESULT: {"using":"xpath","value":"//div[contains(@class,\"borrow__error__text\")]"}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7763 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"2ead0763-7473-478e-9acf-2bca2f7022f4","ELEMENT":"2ead0763-7473-478e-9acf-2bca2f7022f4"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7763 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"2ead0763-7473-478e-9acf-2bca2f7022f4","ELEMENT":"2ead0763-7473-478e-9acf-2bca2f7022f4"}]}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/element - {"using":"xpath","value":"//div[contains(@class,\"borrow__error__text\")]"}
+RESULT: {"using":"xpath","value":"//div[contains(@class,\"borrow__error__text\")]"}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/element - {"using":"css selector","value":"html"}
+RESULT: {"using":"css selector","value":"html"}
+COMMAND: GET /session/3341c71ac7919aac6d56170d9660f54b/element/172398d6-5dbe-4b80-86c0-4a241eb68578/rect - {}
+RESULT: {}
+COMMAND: GET /session/3341c71ac7919aac6d56170d9660f54b/element/2ead0763-7473-478e-9acf-2bca2f7022f4/rect - {}
+RESULT: {}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/actions - {"actions":[{"id":"action6","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":0,"y":0,"deltaX":0,"deltaY":4059,"duration":200,"origin":{"element-6066-11e4-a52e-4f735466cecf":"2ead0763-7473-478e-9acf-2bca2f7022f4"}}]}]}
+RESULT: {"actions":[{"id":"action6","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":0,"y":0,"deltaX":0,"deltaY":4059,"duration":200,"origin":{"element-6066-11e4-a52e-4f735466cecf":"2ead0763-7473-478e-9acf-2bca2f7022f4"}}]}]}
+COMMAND: DELETE /session/3341c71ac7919aac6d56170d9660f54b/actions - {}
+RESULT: {}
+COMMAND: POST /session/3341c71ac7919aac6d56170d9660f54b/element - {"using":"xpath","value":"//div[contains(@class,\"borrow__error__text\")]"}
+RESULT: {"using":"xpath","value":"//div[contains(@class,\"borrow__error__text\")]"}
+COMMAND: GET /session/3341c71ac7919aac6d56170d9660f54b/element/2ead0763-7473-478e-9acf-2bca2f7022f4/text - {}
+COMMAND: DELETE /session/3341c71ac7919aac6d56170d9660f54b/cookie - {}
+RESULT: {}
+RESULT: {}
+COMMAND: DELETE /session/3341c71ac7919aac6d56170d9660f54b - {}
+RESULT: {}
+COMMAND: DELETE /session/bb38fa28b1eb99478a7e901103a5f918 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
