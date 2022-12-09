@@ -1,0 +1,14 @@
+{
+    "personalData" : {
+            "applicationType":"Single",
+            "NoOfDependents" : "0",
+            "propertyToBuy" : "Home to live in",
+            "annualIncome" : "80000",
+            "otherIncome" : "10000",
+            "livingExpenses" : "500",
+            "homeLoanExpenses" : "0",
+            "otherLoanExpenses" : "100",
+            "monthlyCommitments" : "0",
+            "creditCardLimits" : "10000"
+    }
+}
